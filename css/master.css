@@ -13,14 +13,13 @@ svg {
 .header {
   background: rgb(40, 35, 133);
   background: linear-gradient(155deg, rgba(40, 35, 133, 1) 40%, rgba(187, 184, 250, 1) 100%);
-
   position: relative;
   text-align: center;
 }
 
 .header h1 {
-  font-size: 1.5rem;
   color: white;
+  font-size: 1.5rem;
 }
 
 .header-firstLine {
@@ -32,21 +31,19 @@ svg {
 }
 
 .logo-img {
-  width: 30%;
   align-self: center;
+  width: 30%;
 }
 
 .header-img {
-  width: 70%;
   margin-bottom: 2rem;
+  width: 70%;
 }
-
-
 
 .btn {
   border-radius: 4px;
-  font-family: Arial;
   color: #ffffff;
+  font-family: Arial;
   text-decoration: none;
 }
 
@@ -62,10 +59,63 @@ svg {
   padding: 1rem 3rem;
 }
 
+.btn-large {
+  display: block;
+  padding: 1rem;
+  width: 90%;
+}
+
 .btn-green {
   background: #05D69B;
 }
 
 .btn-green:hover {
   background: #5de8c1;
+}
+
+.features {
+  margin: 7rem 2rem;
+}
+
+.feauture {
+  margin-top: 3rem;
+}
+
+.features-img {
+  display: block;
+  margin: 5rem auto;
+  width: 70%;
+}
+
+.features h1 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 1rem;
+}
+
+.features p {
+  color: #808080;
+  font-size: 1.1rem;
+}
+
+.features-cta {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.features-cta p {
+  color: #282385;
+}
+
+input {
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.50);
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 90%;
 }
