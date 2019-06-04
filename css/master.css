@@ -1,18 +1,71 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+svg {
+  bottom: -4px;
+  height: 10vw;
+  position: relative;
+  width: 100%;
+}
+
 .header {
   background: rgb(40, 35, 133);
   background: linear-gradient(155deg, rgba(40, 35, 133, 1) 40%, rgba(187, 184, 250, 1) 100%);
+
   position: relative;
   text-align: center;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  color: white;
 }
 
 .header-firstLine {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 5rem;
+  padding: 1rem;
+  padding-top: 2rem;
 }
 
-svg {
-  position: relative;
-  bottom: -4px;
-  width: 100%;
-  height: 10vw;
+.logo-img {
+  width: 30%;
+  align-self: center;
+}
+
+.header-img {
+  width: 70%;
+  margin-bottom: 2rem;
+}
+
+
+
+.btn {
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn-small {
+  font-size: 0.8rem;
+  padding: 0.5rem 0.8rem;
+}
+
+.btn-big {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 1rem auto 3rem;
+  padding: 1rem 3rem;
+}
+
+.btn-green {
+  background: #05D69B;
+}
+
+.btn-green:hover {
+  background: #5de8c1;
 }
