@@ -1,0 +1,11 @@
+.header {
+  background: rgb(40, 35, 133);
+  background: linear-gradient(155deg, rgba(40, 35, 133, 1) 40%, rgba(187, 184, 250, 1) 100%);
+
+  text-align: center;
+}
+
+.header-firstLine {
+  display: flex;
+  justify-content: space-between;
+}

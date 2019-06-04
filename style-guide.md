@@ -11,13 +11,13 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Soft Blue: hsl(243, 86%, 85%)
-- Very Dark Blue: hsl(243, 87%, 12%)
+- Soft Blue: hsl(243, 86%, 85%)  // #BBB8FA
+- Very Dark Blue: hsl(243, 87%, 12%)  //#070439
 
 ### Accent
 
-- Green: hsl(163, 95%, 43%)
-- Dark Blue: hsl(243, 58%, 33%)
+- Green: hsl(163, 95%, 43%) //#05D69B
+- Dark Blue: hsl(243, 58%, 33%)  //#282385
 
 ### Neutral
 
