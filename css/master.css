@@ -10,6 +10,11 @@ svg {
   width: 100%;
 }
 
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+}
+
 .header {
   background: rgb(40, 35, 133);
   background: linear-gradient(155deg, rgba(40, 35, 133, 1) 40%, rgba(187, 184, 250, 1) 100%);
@@ -54,7 +59,7 @@ svg {
 
 .btn-big {
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin: 1rem auto 3rem;
   padding: 1rem 3rem;
 }
@@ -99,7 +104,7 @@ svg {
 
 .features p {
   color: #808080;
-  font-size: 1.1rem;
+  font-size: 0.85rem;
 }
 
 .features-cta {
@@ -109,6 +114,7 @@ svg {
 
 .features-cta p {
   color: #282385;
+  line-height: 1.5;
 }
 
 input {
@@ -118,4 +124,58 @@ input {
   margin: 1rem auto;
   padding: 1rem;
   width: 90%;
+}
+
+.footer {
+  background: #070439;
+  color: white;
+  margin-top: 10rem;
+}
+
+.footer-logo {
+  width: 60%;
+  margin-bottom: 3rem;
+}
+
+.trapezoid-footer {
+  bottom: 0;
+  margin-bottom: 7rem;
+}
+
+.footer-container {
+  padding: 2rem;
+}
+
+.contact-detail p {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.footer-cta {
+  text-align: right;
+}
+
+.footer-cta p {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.footer-cta input {
+  margin-bottom: 0;
+}
+
+.footer-list {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 3rem;
+  padding: 0;
+}
+
+li {
+  padding: 0.5rem 0;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
 }
